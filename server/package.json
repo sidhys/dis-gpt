@@ -1,0 +1,24 @@
+{
+  "name": "deg-backend",
+  "version": "1.0.0",
+  "description": "backend for discord education gpt",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "ai",
+    "gpt",
+    "gpt-4"
+  ],
+  "author": "Gateway",
+  "license": "MIT",
+  "dependencies": {
+    "@dqbd/tiktoken": "^1.0.7",
+    "body-parser": "^1.20.2",
+    "discord-webhook-node": "^1.1.8",
+    "express": "^4.18.2",
+    "mongoose": "^7.1.0",
+    "openai": "^3.2.1"
+  }
+}
